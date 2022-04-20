@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,600;1,200;1,600&display=swap');
+
+body {
+    
+    height:100vh;
+    background-image: url(./images/headerbg.svg);
+    font-family: "Poppins", sans-serif;    
+}
+
+a {
+    text-decoration: none;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo a {
+    height: 20px;
+    width: 76px;    
+    top: 10px;
+    left: 12px;
+    font-weight: 700;
+    color: #6070FF;
+    font-size: 18px;
+}
+aside a {
+    margin-left: 30px;
+    font-weight: 500;
+    font-size: 15px;
+    color: #344563;
+}
+aside {
+    margin-left: 30px;
+}
+
+.container {
+   position: absolute;
+    top: 30%; 
+    left: 15%;
+    right: 15%;
+    align-items: center;
+    margin: auto;
+}
+
+header {
+    font-size: 42px;
+    font-weight: 700;
+    height: 122px;
+    width: 920px;
+    
+}
+
+.description {
+    height: 98px;
+    width: 920px;
+    left: 0px;
+    top: 134px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    position: relative;
+}
+
+.socials h6 {
+
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #7F8CFF;
+    margin-bottom: 0%;
+}
+
+.socials {
+    position: static;
+    width: 150px;
+    height: 24px;
+    left: 0px;
+    top: 0px;
+}
+
+.socials i {
+    color: #505F79;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-image: url(./images/headerbg.svg);
+    }
+    .container {
+        position: absolute;
+         top: 10%; 
+         
+     }
+    header {
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 52px;
+        letter-spacing: 0em;
+        text-align: left;   
+        height: 150px;
+        width: 410px;
+        left: 24px;
+
+    }
+
+    .description {
+
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        height: 146px;
+        width: 327px;
+        left: 24px;
+    }
+
+    aside a {
+        height: 0px;
+        width: 16.000000000000075px;
+        left: 4px;
+        top: 12px;
+        border-radius: 0px;
+        border: 2px solid #ACB7C3
+
+    }
+
+  }
