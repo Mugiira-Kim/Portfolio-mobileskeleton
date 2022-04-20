@@ -16,11 +16,11 @@ nav {
 }
 
 aside a {
-    margin-left: 30px;
-    font-weight: 500;
-    font-size: 15px;
-    color: #344563;
-  }
+  margin-left: 30px;
+  font-weight: 500;
+  font-size: 15px;
+  color: #344563;
+}
 
 .logo a {
   height: 20px;
@@ -38,7 +38,7 @@ aside {
 
 .container {
   position: absolute;
-  top: 30%; 
+  top: 30%;
   left: 15%;
   right: 15%;
   align-items: center;
@@ -50,18 +50,15 @@ header {
   font-weight: 700;
   height: 122px;
   width: 920px;
-    
 }
 
 .description {
   height: 98px;
   width: 920px;
-  left: 0px;
   top: 134px;
   font-size: 20px;
   font-weight: 400;
   line-height: 28px;
-  letter-spacing: 0em;
   text-align: left;
   position: relative;
 }
@@ -70,39 +67,34 @@ header {
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
-  letter-spacing: 0em;
   text-align: left;
   color: #7F8CFF;
-  margin-bottom: 0%;
 }
 
 .socials {
   position: static;
   width: 150px;
   height: 24px;
-  left: 0px;
-  top: 0px;
 }
 
-  .socials i {
-  color: #505F79;
+.socials i {
+  color: #505f79;
 }
 
-    @media only screen and (max-width: 600px) {
-    body {
-    background-image: url(./images/headerbg.svg);
+@media only screen and (max-width: 600px) {
+  body {
+  background-image: url(./images/headerbg.svg);
     }
     .container {
     position: absolute;
-    top: 10%; 
+    top: 10%;
     }
   
     header {
     font-size: 30px;
     font-weight: 700;
     line-height: 52px;
-    letter-spacing: 0em;
-    text-align: left;   
+    text-align: left;
     height: 150px;
     width: 410px;
     left: 24px;
@@ -112,7 +104,6 @@ header {
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-    letter-spacing: 0em;
     text-align: left;
     height: 146px;
     width: 327px;
@@ -120,10 +111,8 @@ header {
     }
 
     aside a {
-    height: 0px;
     width: 16.000000000000075px;
     left: 4px;
     top: 12px;
-    border-radius: 0px;
-    }
   }
+}
