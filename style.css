@@ -68,7 +68,7 @@ header {
   font-weight: 500;
   line-height: 24px;
   text-align: left;
-  color: #7F8Cff;
+  color: #7f8cff;
 }
 
 .socials {
@@ -109,11 +109,5 @@ header {
     height: 146px;
     width: 327px;
     left: 24px;
-  }
-
-  aside a {
-    width: 16.000000000000075px;
-    left: 4px;
-    top: 12px;
   }
 }
