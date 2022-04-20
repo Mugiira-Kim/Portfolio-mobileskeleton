@@ -68,7 +68,7 @@ header {
   font-weight: 500;
   line-height: 24px;
   text-align: left;
-  color: #7F8CFF;
+  color: #7F8Cff;
 }
 
 .socials {
@@ -83,14 +83,15 @@ header {
 
 @media only screen and (max-width: 600px) {
   body {
-  background-image: url(./images/headerbg.svg);
-    }
-    .container {
+    background-image: url(./images/headerbg.svg);
+  }
+
+  .container {
     position: absolute;
     top: 10%;
-    }
-  
-    header {
+  }
+
+  header {
     font-size: 30px;
     font-weight: 700;
     line-height: 52px;
@@ -98,9 +99,9 @@ header {
     height: 150px;
     width: 410px;
     left: 24px;
-    }
+  }
 
-    .description {
+  .description {
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -108,11 +109,12 @@ header {
     height: 146px;
     width: 327px;
     left: 24px;
-    }
+  }
 
-    aside a {
+  aside a {
     width: 16.000000000000075px;
     left: 4px;
     top: 12px;
   }
 }
+\n
