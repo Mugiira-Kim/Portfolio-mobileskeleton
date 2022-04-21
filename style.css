@@ -96,9 +96,11 @@ aside {
     z-index: 1000;
     position: relative;
   }
+
   .section {
     height: 100vh;
   }
+
   .container {
     position: absolute;
     top: 10%;
@@ -124,9 +126,11 @@ aside {
     left: 24px;
     margin-bottom: 0%;
   }
+
   aside a {
     display: none;
   }
+  
   .hamburger {
     display: inline;
   }
