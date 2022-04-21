@@ -1,22 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,600;1,200;1,600&display=swap');
 
-.wrapper {
-  background-image: url(./images/headerbg.svg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center center;
-  width: 100%;
-  font-family: "Poppins", sans-serif;
-}
-
 a {
   text-decoration: none;
 }
 
-nav {
+.section-one {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  width: fit-content;
 }
 
 aside a {
@@ -44,7 +36,7 @@ aside {
   display: none;
 }
 
-.container {
+.section-two {
   position: absolute;
   top: 30%;
   left: 15%;
@@ -71,7 +63,7 @@ aside {
   position: relative;
 }
 
-.socials h6 {
+.description h6 {
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
@@ -84,36 +76,43 @@ aside {
   position: static;
   width: 150px;
   height: 24px;
+  display: flex;
 }
 
 @media only screen and (max-width: 600px) {
-  .wrapper {
-    background-image: url(mobilebg.svg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center center;
-    z-index: 1000;
-    position: relative;
+  .section-one {
+    margin: auto;
   }
 
-  .section {
-    height: 100vh;
+  nav {
+    display: flex;
+    align-items: center;
   }
 
-  .container {
+  .section-two {
     position: absolute;
+    width: auto;
     top: 10%;
+    background-image: url(header-shapesmobile.png);
+    background-size: cover;
+    align-items: center;
+    margin: auto;
   }
 
   .title {
+    position: relative;
     font-size: 30px;
     font-weight: 700;
     line-height: 52px;
     text-align: left;
     height: 100px;
-    width: 410px;
+    width: auto;
     left: 24px;
+    padding-bottom: 20px;
+  }
+
+  li {
+    list-style: none;
   }
 
   .description {
@@ -122,9 +121,12 @@ aside {
     line-height: 24px;
     text-align: left;
     height: 140px;
-    width: 327px;
+    width: auto;
     left: 24px;
-    margin-bottom: 0%;
+    padding-top: 20px;
+    margin: 0%;
+    padding: 0%;
+    color: #344563;
   }
 
   aside a {
@@ -133,5 +135,17 @@ aside {
 
   .hamburger {
     display: inline;
+    margin-left: 14rem;
+    position: relative;
+  }
+
+  .description ul {
+    width: 150px;
+    height: 24px;
+    display: flex;
+    gap: 1rem;
+    margin: 0%;
+    padding: 0%;
+    text-align: left;
   }
 }
