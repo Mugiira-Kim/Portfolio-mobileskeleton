@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,600;1,200;1,600&display=swap');
 
-body {
-  height: 100vh;
+.wrapper {
   background-image: url(./images/headerbg.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  width: 100%;
   font-family: "Poppins", sans-serif;
 }
 
@@ -36,6 +40,10 @@ aside {
   margin-left: 30px;
 }
 
+.hamburger {
+  display: none;
+}
+
 .container {
   position: absolute;
   top: 30%;
@@ -45,7 +53,7 @@ aside {
   margin: auto;
 }
 
-header {
+.title {
   font-size: 42px;
   font-weight: 700;
   height: 122px;
@@ -69,6 +77,7 @@ header {
   line-height: 24px;
   text-align: left;
   color: #7f8cff;
+  margin-bottom: 0%;
 }
 
 .socials {
@@ -77,26 +86,30 @@ header {
   height: 24px;
 }
 
-.socials i {
-  color: #505f79;
-}
-
 @media only screen and (max-width: 600px) {
-  body {
-    background-image: url(./images/headerbg.svg);
+  .wrapper {
+    background-image: url(mobilebg.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    z-index: 1000;
+    position: relative;
   }
-
+  .section {
+    height: 100vh;
+  }
   .container {
     position: absolute;
     top: 10%;
   }
 
-  header {
+  .title {
     font-size: 30px;
     font-weight: 700;
     line-height: 52px;
     text-align: left;
-    height: 150px;
+    height: 100px;
     width: 410px;
     left: 24px;
   }
@@ -106,8 +119,15 @@ header {
     font-weight: 400;
     line-height: 24px;
     text-align: left;
-    height: 146px;
+    height: 140px;
     width: 327px;
     left: 24px;
+    margin-bottom: 0%;
+  }
+  aside a {
+    display: none;
+  }
+  .hamburger {
+    display: inline;
   }
 }
