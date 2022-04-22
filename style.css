@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,600;1,200;1,600&display=swap');
+
+a {
+  text-decoration: none;
+}
+
+.section-one {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: fit-content;
+}
+
+aside a {
+  margin-left: 30px;
+  font-weight: 500;
+  font-size: 15px;
+  color: #344563;
+}
+
+.logo a {
+  height: 20px;
+  width: 76px;
+  top: 10px;
+  left: 12px;
+  font-weight: 700;
+  color: #6070ff;
+  font-size: 18px;
+}
+
+aside {
+  margin-left: 30px;
+}
+
+.hamburger {
+  display: none;
+}
+
+.section-two {
+  position: absolute;
+  top: 30%;
+  left: 15%;
+  right: 15%;
+  align-items: center;
+  margin: auto;
+}
+
+.title {
+  font-size: 42px;
+  font-weight: 700;
+  height: 122px;
+  width: 920px;
+}
+
+.description {
+  height: 98px;
+  width: 920px;
+  top: 134px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  position: relative;
+}
+
+.description h6 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: #7f8cff;
+  margin-bottom: 0%;
+}
+
+.socials {
+  position: static;
+  width: 150px;
+  height: 24px;
+  display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+  .section-one {
+    margin: auto;
+  }
+
+  nav {
+    display: flex;
+    align-items: center;
+  }
+
+  .section-two {
+    position: absolute;
+    width: auto;
+    top: 10%;
+    background-image: url(header-shapesmobile.png);
+    background-size: cover;
+    align-items: center;
+    margin: auto;
+  }
+
+  .title {
+    position: relative;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    text-align: left;
+    height: 100px;
+    width: auto;
+    left: 24px;
+    margin: 0%;
+    padding: 0%;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  .description {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    height: 140px;
+    width: auto;
+    left: 24px;
+    margin: 0%;
+    padding: 0%;
+    color: #344563;
+  }
+
+  aside a {
+    display: none;
+  }
+
+  .hamburger {
+    display: inline;
+    margin-left: 14rem;
+    position: relative;
+  }
+
+  .description ul {
+    width: 150px;
+    height: 24px;
+    display: flex;
+    gap: 1rem;
+    margin: 0%;
+    padding: 0%;
+    text-align: left;
+  }
+}
