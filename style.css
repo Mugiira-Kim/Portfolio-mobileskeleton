@@ -245,6 +245,13 @@ aside {
     background: #ebebff;
     border-radius: 8px;
     border: #ebebff;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: #6070ff;
   }
 
   .connect p {
@@ -273,16 +280,6 @@ aside {
     font-size: 15px;
     line-height: 20px;
     color: #253858;
-  }
-
-  .small-buttons button {
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    color: #6070ff;
   }
 
   .big-button {
