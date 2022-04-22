@@ -247,6 +247,34 @@ aside {
     border: #ebebff;
   }
 
+  .connect p {
+    position: static;
+    width: 117px;
+    height: 24px;
+    padding: 0%;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7f8cff;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 8px;
+  }
+
+  .java p {
+    margin-left: 1.5rem;
+    height: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #253858;
+  }
+
   .small-buttons button p {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -317,7 +345,7 @@ aside {
 
   .works-four {
     position: absolute;
-    top: 110%;
+    top: 130%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -389,7 +417,6 @@ aside {
     flex: none;
     order: 0;
     flex-grow: 0;
-    margin: 12px;
   }
 
   .describe-me {
@@ -407,23 +434,6 @@ aside {
     order: 1;
     flex-grow: 0;
     margin: 12px;
-  }
-
-  .connect p {
-    position: static;
-    width: 117px;
-    height: 24px;
-    padding: 0%;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    color: #7f8cff;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    margin: 0px 8px;
   }
 
   .connect ul {
@@ -453,7 +463,7 @@ aside {
     align-items: center;
     padding: 16px;
     width: 60%;
-    margin: 20px 0px;
+    margin: 20px;
   }
 
   .lang {
@@ -469,7 +479,7 @@ aside {
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
-    color: #000000;
+    color: #000;
   }
 
   .lang .dropdown {
@@ -490,18 +500,7 @@ aside {
     border-radius: 8px;
     display: flex;
     align-items: center;
-    margin: 12px 0px;
-  }
-
-  .java p {
-    margin-left: 1.5rem;
-    height: 24px;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 20px;
-    color: #253858;
+    margin: 12px;
   }
 
   .skills {
@@ -527,9 +526,9 @@ aside {
     right: 25%;
     top: 37.5%;
     bottom: 37.5%;
-    }
+  }
 
   hr {
-     color: #000000;
+    color: #000;
   }
 }
