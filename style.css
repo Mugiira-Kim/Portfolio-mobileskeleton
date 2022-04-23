@@ -387,11 +387,6 @@ aside {
     padding: 0%;
   }
 
-  .connect li {
-    margin: 0%;
-    padding: 0%;
-  }
-
   .connect a {
     gap: 2rem;
     margin-right: 1rem;
@@ -436,7 +431,7 @@ aside {
 
   .java {
     position: static;
-    width: 303px;
+    width: 343px;
     height: 66.72px;
     left: 12px;
     top: 12px;
@@ -479,5 +474,10 @@ aside {
   .wrapper {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+  }
+
+  .programs ul {
+    margin: 0%;
+    padding: 0%;
   }
 }
