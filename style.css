@@ -149,7 +149,7 @@ aside {
     text-align: left;
   }
 
-  .works {
+  .works-tonic {
     position: absolute;
     top: 110%;
     display: flex;
@@ -158,7 +158,7 @@ aside {
     flex-direction: column;
     padding: 16px;
     width: 327px;
-    height: 552px;
+    height: 630px;
     left: calc(50% - 327px / 2);
     background: #fff;
     border: 1px solid #dfe1e6;
@@ -192,6 +192,7 @@ aside {
     width: 55px;
     height: 16px;
     top: 8px;
+    padding: 0.9rem;
   }
 
   .list ul {
@@ -229,12 +230,7 @@ aside {
     margin: 12px;
   }
 
-  .small-buttons {
-    display: flex;
-    gap: 1rem;
-  }
-
-  .small-buttons button {
+  .small-buttons ul li {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -252,9 +248,17 @@ aside {
     line-height: 16px;
     letter-spacing: 0.03em;
     color: #6070ff;
+    margin-left: 1rem;
   }
 
-  .connect p {
+  .small-buttons ul {
+    display: flex;
+    text-align: left;
+    margin: 0%;
+    padding: 0%;
+  }
+
+  .connect h4 {
     position: static;
     width: 117px;
     height: 24px;
@@ -306,7 +310,7 @@ aside {
     border: #fff;
   }
 
-  .works-two {
+  .works-stories {
     position: absolute;
     top: 110%;
     display: flex;
@@ -315,7 +319,7 @@ aside {
     flex-direction: column;
     padding: 16px;
     width: 327px;
-    height: 552px;
+    height: 630px;
     left: calc(50% - 327px / 2);
     background: #fff;
     border: 1px solid #dfe1e6;
@@ -323,67 +327,10 @@ aside {
     border-radius: 16px;
   }
 
-  .works-three {
-    position: absolute;
-    top: 110%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: column;
-    padding: 16px;
-    width: 327px;
-    height: 552px;
-    left: calc(50% - 327px / 2);
-    background: #fff;
-    border: 1px solid #dfe1e6;
-    box-sizing: border-box;
-    border-radius: 16px;
-  }
-
-  .works-four {
-    position: absolute;
-    top: 130%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: column;
-    padding: 16px;
-    width: 327px;
-    height: 552px;
-    left: calc(50% - 327px / 2);
-    background: #fff;
-    border: 1px solid #dfe1e6;
-    box-sizing: border-box;
-    border-radius: 16px;
-  }
-
-  .works-two .project-title h2 {
+  .works-stories .project-title h2 {
     position: static;
     width: 295px;
-    height: 80px;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 44px;
-  }
-
-  .works-four .project-title h2 {
-    position: static;
-    width: 295px;
-    height: 80px;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 44px;
-    margin-bottom: 2.5rem;
-  }
-
-  .works-three .project-title h2 {
-    position: static;
-    width: 295px;
-    height: 36px;
+    height: 90px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -393,7 +340,7 @@ aside {
 
   .aboutme {
     position: absolute;
-    top: 110%;
+    top: 220%;
     height: 100vh;
     background-color: #fff;
   }
@@ -527,5 +474,10 @@ aside {
 
   hr {
     color: #000;
+  }
+
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
   }
 }
