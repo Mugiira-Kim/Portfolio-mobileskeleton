@@ -573,5 +573,6 @@ aside {
     position: absolute;
     top: -1%;
     right: -1%;
+    z-index: -10;
   }
 }
