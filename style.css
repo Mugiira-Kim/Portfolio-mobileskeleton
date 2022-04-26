@@ -497,6 +497,7 @@ aside {
     background-image: url(Contact\ me.png);
     top: 580%;
     padding: 65px 20px;
+    width: fit-content;
   }
 
   .footer .footer-text {
@@ -562,5 +563,11 @@ aside {
     font-size: 15px;
     font-weight: 400;
     font-family: "Poppins";
+  }
+
+  .overlay {
+    position: absolute;
+    top: 580%;
+    z-index: 1;
   }
 }
