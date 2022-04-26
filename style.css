@@ -496,8 +496,9 @@ aside {
     position: absolute;
     background-image: url(Contact\ me.png);
     top: 580%;
-    padding: 65px 20px;
+    padding: 50px 6px 0;
     width: fit-content;
+    overflow: hidden;
   }
 
   .footer .footer-text {
@@ -566,8 +567,11 @@ aside {
   }
 
   .overlay {
+    width: 100%;
+    height: 100%;
+    background-image: url(/contact\ form\ shapes-mobile@2x.png);
     position: absolute;
-    top: 580%;
-    z-index: 1;
+    top: -1%;
+    right: -1%;
   }
 }
