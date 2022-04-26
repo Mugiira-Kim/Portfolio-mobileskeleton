@@ -500,7 +500,7 @@ aside {
   }
 
   .footer .footer-text {
-    width: 300px;
+    width: 327px;
   }
   .footer .footer-text h2 {
     font-size: 40px;
@@ -517,21 +517,26 @@ aside {
     text-align: center;
     width: 100%;
   }
-  
+
   .form {
-  
   }
 
   input {
-    height: 18px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 17px;
-    line-height: 20px;
+    height: 48px;
+    width: 327px;
     display: flex;
     align-items: center;
-    color: #172B4D;
+    color: #172b4d;
+    border-radius: 10px;
+    border: none;
+  }
+  input::placeholder {
+    color: black;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    text-indent: 10px;
   }
 
   .name {
@@ -544,6 +549,18 @@ aside {
 
   textarea {
     margin: 1rem;
+    height: 170px;
+    margin: 1rem;
+    width: 327px;
+    border: none;
+    border-radius: 10px;
+    line-height: 40px;
+    text-indent: 15px;
   }
 
+  textarea {
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Poppins";
+  }
 }
