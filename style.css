@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,600;1,200;1,600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,600;1,200;1,600&display=swap");
 
 a {
   text-decoration: none;
@@ -170,7 +170,7 @@ aside {
   .project-title h2 {
     width: 295px;
     height: 36px;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
@@ -184,7 +184,7 @@ aside {
     display: flex;
     text-align: center;
     color: #344563;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 13px;
@@ -216,7 +216,7 @@ aside {
   }
 
   .describe-project {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
@@ -242,7 +242,7 @@ aside {
     background: #ebebff;
     border-radius: 8px;
     border: #ebebff;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
@@ -264,7 +264,7 @@ aside {
     width: 117px;
     height: 24px;
     padding: 0%;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -279,7 +279,7 @@ aside {
   .java p {
     margin-left: 1.5rem;
     height: 24px;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
@@ -322,7 +322,7 @@ aside {
     position: static;
     width: 295px;
     height: 90px;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
@@ -341,7 +341,7 @@ aside {
     width: 327px;
     height: 101px;
     margin-bottom: 3rem;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -359,7 +359,7 @@ aside {
     width: 327px;
     height: 144px;
     top: 113px;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -405,7 +405,7 @@ aside {
     height: 24px;
     left: 12px;
     right: 78px;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
@@ -440,7 +440,7 @@ aside {
     justify-content: space-between;
     position: relative;
     height: 24px;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
@@ -494,6 +494,24 @@ aside {
 
   .footer {
     position: absolute;
+    background-image: url(Contact\ me.png);
     top: 580%;
+    padding: 65px 20px;
+  }
+
+  .footer .footer-text {
+  }
+  .footer .footer-text h2 {
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+  }
+  .footer .footer-text p {
+    font-size: 20px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
   }
 }
