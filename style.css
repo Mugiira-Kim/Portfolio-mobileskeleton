@@ -98,6 +98,7 @@ aside {
     background-size: cover;
     align-items: center;
     margin: auto;
+    margin-bottom: 2rem;
   }
 
   .title {
@@ -152,7 +153,7 @@ aside {
 
   .works-tonic {
     position: absolute;
-    top: 110%;
+    top: 130%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -495,7 +496,7 @@ aside {
   .footer {
     position: absolute;
     background-image: url(Contact\ me.png);
-    top: 580%;
+    top: 599%;
     padding: 50px 6px 0;
     width: fit-content;
     overflow: hidden;
@@ -504,6 +505,7 @@ aside {
   .footer .footer-text {
     width: 327px;
   }
+
   .footer .footer-text h2 {
     font-size: 40px;
     text-align: center;
@@ -512,15 +514,13 @@ aside {
     font-family: "Poppins", sans-serif;
     width: 100%;
   }
+
   .footer .footer-text p {
     font-size: 20px;
     color: white;
     font-family: "Poppins", sans-serif;
     text-align: center;
     width: 100%;
-  }
-
-  .form {
   }
 
   input {
@@ -532,9 +532,10 @@ aside {
     border-radius: 10px;
     border: none;
   }
+
   input::placeholder {
     color: black;
-    font-family: "Poppins";
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 17px;
@@ -552,18 +553,14 @@ aside {
   textarea {
     margin: 1rem;
     height: 170px;
-    margin: 1rem;
     width: 327px;
     border: none;
     border-radius: 10px;
     line-height: 40px;
     text-indent: 15px;
-  }
-
-  textarea {
     font-size: 15px;
     font-weight: 400;
-    font-family: "Poppins";
+    font-family: "Poppins", sans-serif;
   }
 
   .overlay {
