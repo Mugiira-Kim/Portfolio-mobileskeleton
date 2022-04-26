@@ -500,6 +500,7 @@ aside {
   }
 
   .footer .footer-text {
+    width: 300px;
   }
   .footer .footer-text h2 {
     font-size: 40px;
@@ -507,11 +508,42 @@ aside {
     color: white;
     font-weight: 700;
     font-family: "Poppins", sans-serif;
+    width: 100%;
   }
   .footer .footer-text p {
     font-size: 20px;
     color: white;
     font-family: "Poppins", sans-serif;
     text-align: center;
+    width: 100%;
   }
+  
+  .form {
+  
+  }
+
+  input {
+    height: 18px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #172B4D;
+  }
+
+  .name {
+    margin: 1rem;
+  }
+
+  .email {
+    margin: 1rem;
+  }
+
+  textarea {
+    margin: 1rem;
+  }
+
 }
