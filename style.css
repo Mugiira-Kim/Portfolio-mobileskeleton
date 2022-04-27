@@ -497,7 +497,6 @@ aside {
     position: absolute;
     background-image: url(Contact\ me.png);
     top: 599%;
-    padding: 50px 6px 0;
     width: fit-content;
     overflow: hidden;
   }
