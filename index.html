@@ -9,126 +9,93 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
       integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
       crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+      referrerpolicy="no-referrer"/>
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style2.css"/>
   </head>
   <body>
 
+<section class="header"> <!--wraps around section-one and section-two-->
+
 <section class="section-one">
-
-  <div class="shapes">
-            <div class="elipse">
-               <img src="topelipse.png" alt="">
-            </div>
-
-            <div class="toprec">
-              <img src="tuprecfull.png" alt="">
-             </div>
-
-             <div class="leftelipse">
-               <img src="leftelipse.png" alt="">
-             </div>
-
-             <div class="leftrec">
-               <img src="leftrec.png" alt="">
-             </div>
-
-             <div class="midrec">
-               <img src="midrec.png" alt="">
-             </div>
-
-             <div class="midelipse">
-               <img src="midelipse.png" alt="">
-             </div>
-
-             <div class="bottomrec">
-               <img src="bottomrec.png" alt="">
-             </div>
-
-             <div class="bottomelipse">
-              <img src="bottomelipse.png" alt="">               
-             </div>
-
-             <div class="botelipse">
-               <img src="botelipse.png" alt="">
-             </div>
-
-             <div class="elipseshadow">
-               <img src="botshadow.png" alt="">
-             </div>
-         </div>
-
     <nav>
         <section class="logo">
           <a href="">My Logo</a>
         </section>
+
           <aside>
             <a href="">Portfolio</a>
             <a href="">About</a>
             <a href="">Contact</a>
           </aside>
+
             <section class="hamburger">
-              <img src="icon.jpg" alt="hamburger-icon" />
+              <img src="images/icon.jpg" alt="hamburger-icon" />
             </section>
       </nav>
-</section>
+
+</section> <!--end of section-one-->
    
     <section class="section-two">
-        <section class="title">
+
+        <div class="title">
           <h1>
             I’m Dennis<br />
             Glad to see you!
           </h1>
-        </section>
-
-      <section class="description">
+        </div><div class="description">
           <p>
             I’m a software developer! I can help you build a product , feature or
             website Look through some of my work and experience! If you like what
             you see and have a project you need coded, don’t hestiate to contact
             me.
           </p>
+          <br>
+          <br>
+          <div class="letconnect">
+
                   <h6>LET'S CONNECT</h6>
         <ul>
           <li>
             <a href="https://twitter.com/">
-              <img src="twitter.svg" alt="twitter"
+              <img src="images/twitter.svg" alt="twitter"
             /></a></li>
            <li>
             <a href="https://www.linkedin.com/in/"
-              ><img src="linkedin.svg" alt="linkedin"/></a> </li>
+              ><img src="images/linkedin.svg" alt="linkedin"/></a> </li>
            <li>
-            <a href="//www.medium.com/"><img src="m.svg" alt="medium" /></a></li> 
+            <a href="//www.images/medium.com/"><img src="images/m.svg" alt="medium" /></a></li> 
            <li>
             <a href="https://github.com/"
-              ><img src="github.svg" alt="github"/></a></li>
+              ><img src="images/github.svg" alt="github"/></a></li>
            <li>
-            <a href="peace"><img src="peace.svg" alt="peace" /></a></li>
+            <a href="peace"><img src="images/peace.svg" alt="peace" /></a></li>
         </ul>
+      </div>
+  </div>
 
-    </section>
-</section>
+</section> <!--end of section-two-->
+</section> <!--end of header-->
 
     <!--Wrapper to wrap around cards-->
     
-    <section class="wrapper"> 
+<section class="wrapper"> 
         
       <!-- CARD ONE  -->
 
-      <section class="works-tonic">
+ <section class="works-tonic">
     
         <figure class="image">
-          <img src="imageone.png" alt="imageone" />
+          <img src="images/imageone.png" alt="imageone"/>
         </figure>
        
         <figure class="deskimg">
-          <img src="deskimage1.png" alt="">
+          <img src="images/deskimage1.png" alt="">
         </figure>
 
         <section class="project-title">
             <h2>Tonic</h2>
+          <div class="flex">
             <div class="small-title">
             <p>CANOPY</p>
             </div>
@@ -154,7 +121,6 @@
               <li>javascript</li>
             </ul>
             </div>
-
            <button class="big-button">See Project</button>
         </section>
   </section>
@@ -164,15 +130,16 @@
   <section class="works-stories">
   
       <figure class="image">
-        <img src="imageone.png" alt="imageone" />
+        <img src="images/imagetwo.png" alt="imageone" />
       </figure>
      
       <figure class="deskimg">
-        <img src="deskimage2.png" alt="">
+        <img src="images/deskimage2.png" alt="">
       </figure>
 
       <section class="project-title">
           <h2>Multi-Post Stories</h2>
+          <div class="flex">
           <div class="small-title">
           <p>FACEBOOK</p>
           </div>
@@ -185,10 +152,15 @@
           </div>
 
           <div class="describe-project">
-           <p>
+           <p class="desk-text">
+            Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.
+           </p>
+              
+           <p class="mobile-text">
             A daily selection of privately personalized reads; no accounts or
             sign-ups required.
            </p>
+
           </div>
 
          <div class="small-buttons">
@@ -198,9 +170,9 @@
             <li>javascript</li>
           </ul>
           </div>
-
-         <button class="big-button">See Project</button>
+          <button class="big-button">See Project</button>
       </section>
+
   </section>
 
             <!--CARD THREE-->
@@ -208,28 +180,34 @@
 <section class="works-tonic">
     
             <figure class="image">
-              <img src="imageone.png" alt="imageone" />
+              <img src="images/imagethree.png" alt="imageone" />
             </figure>
            
             <figure class="deskimg">
-              <img src="deskimage1.png" alt="">
+              <img src="images/deskimage3.png" alt="">
             </figure>
     
             <section class="project-title">
-                <h2>Tonic</h2>
+                <h2 class="desk-title">Facebook 360</h2>
+                <h2 class="mobile-title">Tonic</h2>
+
+               <div class="flex">
                 <div class="small-title">
-                <p>CANOPY</p>
+                <p>FACEBOOK</p>
                 </div>
                 <div class="list">
                 <ul>
-                <li>Back End Dev</li>
+                <li>Full Stack Dev</li>
                 <li>2015</li>
                 </ul>
                 </div>
                 </div>
     
                 <div class="describe-project">
-                 <p>
+                 <p class="desk-text">
+                  Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR..
+                 </p>
+                 <p class="mobile-text">
                   A daily selection of privately personalized reads; no accounts or
                   sign-ups required.
                  </p>
@@ -238,13 +216,14 @@
                <div class="small-buttons">
                 <ul>
                   <li>html</li>
+                  
                   <li>css</li>
                   <li>javascript</li>
                 </ul>
                 </div>
-    
                <button class="big-button">See Project</button>
             </section>
+
  </section>
 
              <!---CARD FOUR-->
@@ -252,17 +231,20 @@
   <section class="works-stories">
     
       <figure class="image">
-        <img src="imageone.png" alt="imageone" />
+        <img src="images/imagefour.png" alt="imageone" />
       </figure>
      
       <figure class="deskimg">
-        <img src="deskimage1.png" alt="">
+        <img src="images/deskimage4.png" alt="">
       </figure>
 
       <section class="project-title">
-          <h2>Tonic</h2>
+          <h2 class="desk-title">Uber Navigation</h2>
+          <h2 class="mobile-title">Multi Post Stories</h2>
+
+          <div class="flex">
           <div class="small-title">
-          <p>CANOPY</p>
+          <p>Uber</p>
           </div>
           <div class="list">
           <ul>
@@ -273,7 +255,10 @@
           </div>
 
           <div class="describe-project">
-           <p>
+           <p class="desk-text2">
+            A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.
+           </p>
+           <p class="mobile-text">
             A daily selection of privately personalized reads; no accounts or
             sign-ups required.
            </p>
@@ -282,21 +267,24 @@
          <div class="small-buttons">
           <ul>
             <li>html</li>
+          
             <li>css</li>
             <li>javascript</li>
           </ul>
           </div>
-
-         <button class="big-button">See Project</button>
-</section>
+         <button class="big-button">See Project</button>        
+</section>       
+  </section>
 
 </section><!--End of Wrapper-->
 
 
   <section class="aboutme">
+
+      <div class="flex1">
               <div class="mytitle">
                 <h3>
-                  About <br />
+                  About <br/>
                   Myself
                 </h3>
               </div>
@@ -314,89 +302,88 @@
                 <h4>LET'S CONNECT</h4>
                 <ul>
                   <li>
-                    <a href="https://twitter.com/"
-                      ><img src="twitter.svg" alt="twitter"
-                    /></a>
-                  </li>
+                    <a href="https://twitter.com/">
+                      <img src="images/twitter.svg" alt="twitter"/></a></li>
                   <li>
-                    <a href="https://www.linkedin.com/in/"
-                      ><img src="linkedin.svg" alt="linkedin"
-                    /></a>
-                  </li>
+                    <a href="https://www.linkedin.com/in/">
+                      <img src="images/linkedin.svg" alt="linkedin"/></a></li>
                   <li>
-                    <a href="//www.medium.com/"
-                      ><img src="m.svg" alt="medium"
-                    /></a>
-                  </li>
+                    <a href="//www.medium.com/">
+                      <img src="images/m.svg" alt="medium"/></a></li>
                   <li>
-                    <a href="https://github.com/"
-                      ><img src="github.svg" alt="github"
-                    /></a>
-                  </li>
+                    <a href="https://github.com/">
+                      <img src="images/github.svg" alt="github"/></a></li>
                   <li>
-                    <a href="peace"><img src="peace.svg" alt="peace" /></a>
-                  </li>
+                    <a href="peace"><img src="images/peace.svg" alt="peace" /></a></li>
                 </ul>
               </div>
-
+      
               <button class="big-button">Get my Resume</button>
+       </div><!--End of flex1-->
+            
+       <div class="flex2">
 
               <div class="lang">
                 <div class="text">
                   <p>Languages</p>
                 </div>
                 <div class="dropdown">
-                  <img src="down.jpg" alt="selector" />
+                  <img src="images/down.jpg" alt="selector" />
                 </div>
               </div>
 
               <div class="programs">
                 <ul>
                   <li class="java">
-                    <img src="JS.png" alt="" />
+                    <img src="images/JS.png" alt="js" />
                     <p>javaScript</p>
                   </li>
 
                   <li class="java">
-                    <img src="html.png" alt="" />
+                    <img src="images/html.png" alt="html" />
                     <p>HTML</p>
                   </li>
 
                   <li class="java">
-                    <img src="css.png" alt="" />
+                    <img src="images/css.png" alt="css" />
                     <p>CSS</p>
                   </li>
                 </ul>
+              
               </div>
               <div class="skills">
                 <div class="text">
                   <p>Frameworks</p>
                 </div>
                 <div class="dropdown">
-                  <img src="arrow.jpg" alt="selector" />
+                  <img src="images/arrow.jpg" alt="selector" />
                 </div>
               </div>
 
-              <hr />
+              <hr/>
+
               <div class="skills">
                 <div class="text">
                   <p>Skills</p>
                 </div>
                 <div class="dropdown">
-                  <img src="arrow.jpg" alt="selector" />
+                  <img src="images/arrow.jpg" alt="selector" />
                 </div>
               </div>
 
-              <hr />
-            </section>
-          </section>
-        </section>
+              <hr/>
+            </div> <!--End of flex2-->  
+</section>
+       
 
-        <section class="footer">
+<section class="footer">
+
+      <div class="footershapes-desk">
           <div class="overlay">
-            <img src="rectangle.png" alt="footershapes">
+            <img src="images/contactformshapes.svg" alt="footershapes">
           </div>
-            <div class="overlay2">
+
+        <!--     <div class="overlay2">
               <img src="whitecircle.png" alt="whitecircle">
             </div>
             <div class="overlay3">
@@ -405,6 +392,7 @@
             <div class="overlay4">
               <img src="toprec.png" alt="toprec">
             </div>
+          </div> -->
 
           <article class="footer-text">
             <h2>Contact me</h2>
@@ -440,11 +428,13 @@
               placeholder="Write your message here"
               maxlength="500"
             ></textarea>
-            <br />
-            <input class="big-button" type="submit" value="Get In Touch" />
+            <br/>
           </form>
-        </section>
-      </section>
-    </section>
+            <div class="getintouch">
+            <input class="big-button" type="submit" value="Get In Touch">
+          </div> 
+</section>
+
+      
   </body>
 </html>
