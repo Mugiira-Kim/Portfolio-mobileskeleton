@@ -378,7 +378,12 @@ aside a {
   height: 100%;
   position: absolute;
   right: 2%;
-  z-index: 1;
+  z-index: 0;
+}
+
+.footer .content {
+  margin-left: 25rem;
+  margin-top: 5rem;
 }
 
 .footer .footer-text {
