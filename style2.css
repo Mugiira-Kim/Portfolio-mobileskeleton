@@ -7,7 +7,6 @@
 }
 
 .header {
-  width: 100%;
   height: 730px;
   background-image: url(images/desktop-header-bg.svg);
 }
@@ -25,27 +24,37 @@ nav .logo {
   line-height: 20px;
   color: #6070ff;
   font-weight: 700;
-}
-
-.hamburger {
-  display: none;
+  margin: 1.5rem;
 }
 
 a {
   text-decoration: none;
 }
 
-li {
-  list-style: none;
-}
-
 aside a {
-  margin: 3rem;
+  margin-left: 2rem;
   font-style: normal;
   font-weight: 500;
   line-height: 20px;
   font-size: 15px;
   color: #344563;
+}
+
+nav .logo a {
+  color: #6070ff;
+  font-size: 18px;
+}
+
+.hamburger {
+  display: none;
+}
+
+li {
+  list-style: none;
+}
+
+aside {
+  margin-right: 10rem;
 }
 
 .section-two {
@@ -121,7 +130,7 @@ aside a {
 }
 
 .works-tonic {
-  height: 1156;
+  width: fit-content;
   height: 486px;
   border-radius: 24px;
   display: flex;
@@ -130,7 +139,7 @@ aside a {
 }
 
 .works-stories {
-  height: 1156;
+  width: fit-content;
   height: 486px;
   border-radius: 24px;
   display: flex;
@@ -216,7 +225,8 @@ aside a {
 }
 
 .small-buttons ul li {
-  margin-left: 1rem;
+  margin-left: 0%;
+  margin-right: 2rem;
   font-size: 12px;
   color: #6070ff;
   font-style: normal;
@@ -251,6 +261,14 @@ aside a {
   letter-spacing: 0.03rem;
 }
 
+.works-tonic .big-button {
+  margin-left: 0%;
+}
+
+.works-stories .big-button {
+  margin-left: 0%;
+}
+
 .mobile-text {
   display: none;
 }
@@ -263,26 +281,31 @@ aside a {
 
 .aboutme {
   display: flex;
-  width: 100%;
+  width: fit-content;
+  margin: auto;
   background-image: url(images/aboutmebgdesk.svg);
   height: 600px;
   padding-top: 3rem;
 }
 
+.aboutme .big-button {
+  margin-left: 0%;
+}
+
 .flex1 {
-  width: 50%;
-  margin-right: 0.2rem;
+  width: 447px;
+  margin-right: 0.5rem;
   padding-right: 0.5rem;
-  padding-left: 4rem;
+  padding-left: 3rem;
   margin-left: 3rem;
 }
 
 .flex2 {
-  width: 50%;
-  margin-left: 0.2rem;
+  width: 447px;
+  margin-left: 0.5rem;
   padding-left: 0.5rem;
   padding-right: 3rem;
-  margin-right: 2rem;
+  margin-right: 3rem;
 }
 
 .mytitle h3 {
@@ -312,7 +335,7 @@ aside a {
 }
 
 .connect ul li {
-  margin-right: 2rem;
+  margin-right: 1rem;
 }
 
 .lang {
@@ -362,7 +385,7 @@ aside a {
 
 .footer {
   position: absolute;
-  top: 600%;
+  top: 570%;
   background-image: url(images/contactformbgdesk.svg);
   height: 846px;
   width: 100vw;
@@ -463,7 +486,10 @@ form {
   flex-direction: column;
   align-items: center;
   padding: 16px;
-  margin: 20px;
+  margin-left: 0%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
   color: #fff;
   cursor: pointer;
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
