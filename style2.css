@@ -53,17 +53,17 @@ aside a {
   margin-top: 2rem;
   top: 50%;
   left: 50%;
-  transform: translate(-50% , -50%);
+  transform: translate(-50%, -50%);
 }
 
-.section-two .title h1{
+.section-two .title h1 {
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
-  color: #091e42;  
+  color: #091e42;
 }
 
-.description p{
+.description p {
   height: 98px;
   font-style: normal;
   font-size: 20px;
@@ -89,7 +89,7 @@ aside a {
   margin-right: 3rem;
 }
 
-/*End of styling page one*/
+/* End of styling page one */
 
 .image {
   display: none;
@@ -137,6 +137,31 @@ aside a {
   margin-bottom: 20px;
 }
 
+.describe-project p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.describe-me p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.footer-text p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #ebebff;
+}
+
 .project-title .small-title p {
   font-style: normal;
   font-weight: 500;
@@ -146,7 +171,7 @@ aside a {
 }
 
 .project-title .flex {
-  display: flex; 
+  display: flex;
 }
 
 .list ul {
@@ -168,14 +193,6 @@ aside a {
   width: 100%;
   margin-top: 20px;
   margin-bottom: 20px;
-}
-
-.describe-project p {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  color: #344563;
 }
 
 .small-buttons ul {
@@ -216,7 +233,7 @@ aside a {
   font-weight: 900 bold;
   font-family: "Poppins", sans-serif;
   letter-spacing: 0.03rem;
-  }
+}
 
 .mobile-text {
   display: none;
@@ -226,7 +243,7 @@ aside a {
   display: none;
 }
 
-  /*End Of Card Styling*/
+  /* End Of Card Styling */
 
 .aboutme {
   display: flex;
@@ -241,8 +258,8 @@ aside a {
 }
 
 .flex2 {
- width: 50%;
- margin: 2rem;
+  width: 50%;
+  margin: 2rem;
 }
 
 .mytitle h3 {
@@ -254,16 +271,8 @@ aside a {
 }
 
 .describe-me {
- margin-top: 20px;
- margin-bottom: 20px;
-}
-
-.describe-me p {
- font-style: normal;
- font-weight: 400;
- font-size: 16px;
- line-height: 24px;
- color: #344563;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .connect h4 {
@@ -271,7 +280,7 @@ aside a {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  color: #7f8cff; 
+  color: #7f8cff;
   margin-bottom: 10px;
 }
 
@@ -299,7 +308,7 @@ aside a {
 
 .programs ul {
   display: grid;
-  grid-template-columns: repeat( 3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   text-align: center;
   padding-top: 20px;
   margin-top: 10px;
@@ -326,7 +335,7 @@ aside a {
   color: #344563;
 }
 
-/*End Of About Me Section */
+/* End Of About Me Section */
 
 .footer {
   position: absolute;
@@ -341,13 +350,12 @@ aside a {
 }
 
 .overlay {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    right: 2%;
-    z-index: 0;
-  }
-
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 2%;
+  z-index: 0;
+}
 
 .footer .footer-text {
   position: relative;
@@ -363,15 +371,6 @@ aside a {
   font-weight: 700;
   width: 100%;
   margin: 0%;
-}
-
-.footer-text p {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 28px;
-  text-align: center;
-  color: #ebebff;
 }
 
 input {
@@ -396,7 +395,7 @@ input::placeholder {
 .name {
   margin: 1rem;
 }
-  
+
 .email {
   margin: 1rem;
 }
@@ -422,9 +421,9 @@ form {
   margin-left: 11rem;
 }
 
-/*END OF DESKTOP VERSION */
+/* END OF DESKTOP VERSION */
 
-/*Style For Hover */
+/* Style For Hover */
 
 .big-button:hover {
   background: #6070ff;
@@ -441,10 +440,9 @@ form {
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
 }
 
-/*BEGINNING STYLIING FOR MOBILE*/
+/* BEGINNING STYLIING FOR MOBILE */
 
 @media only screen and (max-width: 768px) {
-
   *{
     font-family: "Poppins", sans-serif;
     font-style: normal;
@@ -457,8 +455,9 @@ form {
     background-image: url(images/headershapesmobile.png);
     margin: auto;
     overflow-x: hidden;
-    left: calc(50% - 375px/2);
+    left: calc(50% - 375px / 2);
   }
+
   .hamburger {
     display: inline-block;
   }
@@ -471,7 +470,7 @@ form {
     margin-top: 5rem;
   }
 
-  /*style for works section */
+  /* style for works section */
 
   .deskimg {
     display: none;
@@ -585,7 +584,7 @@ form {
     width: 375px;
     margin: auto;
     
-    left: calc(50% - 375px/2);
+    left: calc(50% - 375px / 2);
   }
 
   .footer .footer-text {
