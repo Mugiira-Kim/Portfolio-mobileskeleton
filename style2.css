@@ -243,7 +243,7 @@ aside a {
   display: none;
 }
 
-  /* End Of Card Styling */
+/* End Of Card Styling */
 
 .aboutme {
   display: flex;
@@ -443,12 +443,13 @@ form {
 /* BEGINNING STYLIING FOR MOBILE */
 
 @media only screen and (max-width: 768px) {
-  *{
+  * {
     font-family: "Poppins", sans-serif;
     font-style: normal;
     margin: 0%;
     padding: 0%;
   }
+
   .header {
     width: 327px;
     height: 718px;
@@ -551,7 +552,7 @@ form {
   .describe-me {
     margin-top: 10px;
     margin-bottom: 10px;
-   }
+  }
 
   .aboutme .big-button {
     width: 60%;
@@ -579,11 +580,11 @@ form {
     align-items: center;
   }
 
-  .footer {  
+  .footer {
     top: 750%;
     width: 375px;
     margin: auto;
-    left: calc(50% - 375px /2);
+    left: calc(50% - 375px / 2);
   }
 
   .footer .footer-text {
