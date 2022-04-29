@@ -226,7 +226,7 @@ aside a {
   align-items: center;
   justify-content: center;
   padding: 16px;
-  width: 50%;
+  width: fit-content;
   margin: 20px;
   color: #6070ff;
   font-size: 17px;
@@ -250,16 +250,23 @@ aside a {
   width: 100%;
   background-image: url(images/aboutmebgdesk.svg);
   height: 600px;
+  padding-top: 3rem;
 }
 
 .flex1 {
   width: 50%;
-  margin: 2rem;
+  margin-right: 0.2rem;
+  padding-right: 0.5rem;
+  padding-left: 4rem;
+  margin-left: 3rem;
 }
 
 .flex2 {
   width: 50%;
-  margin: 2rem;
+  margin-left: 0.2rem;
+  padding-left: 0.5rem;
+  padding-right: 3rem;
+  margin-right: 2rem;
 }
 
 .mytitle h3 {
@@ -354,7 +361,7 @@ aside a {
   height: 100%;
   position: absolute;
   right: 2%;
-  z-index: 0;
+  z-index: 1;
 }
 
 .footer .footer-text {
@@ -440,7 +447,76 @@ form {
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
 }
 
-/* BEGINNING STYLIING FOR MOBILE */
+.getintouch .big-button:hover {
+  background: #6070ff;
+  border: 1px solid #dfe1e6;
+  box-sizing: border-box;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  margin: 20px;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+}
+
+.getintouch .big-button:enabled {
+  background: #fff;
+  border: 1px solid #6070ff;
+  box-sizing: border-box;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  margin: 20px;
+  color: #6070ff;
+  cursor: pointer;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+}
+
+.getintouch .big-button:disabled {
+  background: #fff;
+  border: 1px solid #5e6c84;
+  box-sizing: border-box;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  margin: 20px;
+  color: #5e6c84;
+  cursor: pointer;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+}
+
+.getintouch .big-button:focus{
+  background: #2230d2;
+  border: 1px solid #2230d2;
+  box-sizing: border-box;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  margin: 20px;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+}
+
+.deskimg {
+  transition-duration: 1000ms;
+  transition-property: all;
+}
+
+.deskimg:hover {
+  transform: scale(1.2);
+}
+
+/* BEGINNING STYLING FOR MOBILE */
 
 @media only screen and (max-width: 768px) {
   * {
