@@ -583,8 +583,7 @@ form {
     top: 750%;
     width: 375px;
     margin: auto;
-    
-    left: calc(50% - 375px / 2);
+    left: calc(50% - 375px /2);
   }
 
   .footer .footer-text {
