@@ -492,7 +492,7 @@ form {
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
 }
 
-.getintouch .big-button:focus{
+.getintouch .big-button:focus {
   background: #2230d2;
   border: 1px solid #2230d2;
   box-sizing: border-box;
