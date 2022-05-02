@@ -1,4 +1,3 @@
-
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Portfolio-mobileskeleton
@@ -15,7 +14,7 @@
 
 To see the website click on the link below. 
 
-https://mugiira-kim.github.io/Portfolio-mobileskeleton/
+[Live-Demo] (https://mugiira-kim.github.io/Portfolio-mobileskeleton/)
 
 
 
