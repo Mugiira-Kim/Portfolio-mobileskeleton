@@ -1,4 +1,3 @@
-
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Portfolio-mobileskeleton
@@ -7,7 +6,7 @@
 
 
 ## Built With
-
+ 
 - HTML & CSS
 - Linters
 
@@ -16,6 +15,7 @@
 To see the website click on the link below. 
 
 https://mugiira-kim.github.io/Portfolio-mobileskeleton/
+
 
 
 
@@ -32,6 +32,7 @@ https://mugiira-kim.github.io/Portfolio-mobileskeleton/
 - GitHub: [@MoRaad97](https://github.com/MoRaad97)
 - Twitter: [@MohammedRaadz](https://twitter.com/MohammedRaadz)
 - LinkedIn: [Mohammed Raad](linkedin.com/in/mohammed-raad-600176210)
+
 
 
 
