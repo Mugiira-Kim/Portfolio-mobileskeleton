@@ -2,8 +2,6 @@
 
 * {
   font-family: "Poppins", sans-serif;
-  margin: 0%;
-  padding: 0%;
 }
 
 .header {
@@ -71,7 +69,7 @@ aside {
   font-size: 48px;
   color: #091e42;
   animation-name: color-change;
-  animation-duration: 4s;
+  animation-duration: 5s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   animation-direction: alternate;
@@ -125,7 +123,7 @@ aside {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 100%;
+  width: fit-content;
   background-color: #e5e5e5;
 }
 
