@@ -83,6 +83,16 @@ form {
   width: 700px;
 }
 
+.ds-none {
+  display: none;
+}
+
+.menu-wrapper .menu ul {
+  display: flex;
+  padding: 0;
+  list-style-type: none;
+}
+
 input {
   width: 700px;
 }
@@ -148,6 +158,10 @@ input {
 
   .menu-wrapper .menu ul {
     display: none;
+  }
+
+  .menu-wrapper .menu .menu-icon {
+    display: flex;
   }
 
   .menu-wrapper .menu .mobile-menu {
