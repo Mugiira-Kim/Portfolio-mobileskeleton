@@ -20,39 +20,37 @@
     <div class="container page-one">
       <!--Wraps around header and main-->
 
-      <header class="container-fluid">
-        <nav class="navbar navbar-expand-lg navbar-light">
-          <a class="navbar-brand text-primary fw-bold" href="#">My Logo</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
+      <header>
+        <div class="menu-wrapper flex-container">
+          <div>
+            <a class="navbar-brand text-primary fw-bold" href="#">My Logo</a>
+          </div>
 
-          <div
-            class="collapse navbar-collapse justify-content-end"
-            id="navbarSupportedContent">
-            <ul class="nav justify-content-end">
+          <nav class="menu">
+            <div class="menu-icon">
+              <img src="img/Union.svg" alt="Hambuger Menu" />
+            </div>
+
+           <ul class="">
+              <li>
+                <span>
+                  <img src="img/close.svg" alt="Close Hambuger menu icon">
+                </span>
+              </li>
               <li class="nav-item">
-                <a class="nav-link active scroll" aria-current="page" href="#">Portfolio</a>
+                <a class="nav-link active scroll" aria-current="page" href="#portfolio">Portfolio</a>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link scroll" href="#">About</a>
+                <a class="nav-link scroll" href="#about">About</a>
               </li>
 
               <li class="nav-item scroll">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="#contact">Contact</a>
               </li>
             </ul>
-          </div>
-        </nav>
+          </nav>
+        </div>
       </header>
 
       <main class="py-5 px-5 d-flex align-items-center">
@@ -84,7 +82,7 @@
     </div>
 
     <section
-      class="container wrapCards border d-flex justify-content-center wrap-cards flex-column bg-light"
+      class="container wrapCards border d-flex justify-content-center wrap-cards flex-column bg-light" id="portfolio"
     >
       <!--CARD ONE-->
       <div class="card mb-3 p-2 m-3 m-auto" >
@@ -240,7 +238,7 @@
     </section>
     <!--End of Cards-->
 
-    <section class="py-5 px-5">
+    <section class="py-5 px-5" id="about">
       <div class="container">
         <div class="row">
           <div class="col-sm-5 py-5">
@@ -328,7 +326,7 @@
       </div>
     </section>
 
-    <div class="container last-page">
+    <div class="container last-page" id="contact">
       <section
         class="container-fluid my-5 vh-100 d-flex justify-content-center text-center m-5"
       >
@@ -381,7 +379,7 @@
     </div>
 
     <script src="app.js"></script>
-    <script
+   <!-- <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
@@ -390,6 +388,6 @@
       src="https://code.jquery.com/jquery-3.6.0.slim.js"
       integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY="
       crossorigin="anonymous"
-    ></script>
+    ></script> -->
   </body>
 </html>
