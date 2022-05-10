@@ -5,6 +5,16 @@ html {
   scroll-behavior: smooth;
 }
 
+.fixed {
+  overflow: hidden;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 footer {
   background-color: blue;
   font-family: "Poppins", sans-serif;
@@ -77,6 +87,16 @@ form {
   width: 700px;
 }
 
+.ds-none {
+  display: none;
+}
+
+.menu-wrapper .menu ul {
+  display: flex;
+  padding: 0;
+  list-style-type: none;
+}
+
 input {
   width: 700px;
 }
@@ -138,5 +158,49 @@ input {
     justify-content: center;
     background-image: url(img/Contact\ me.png);
     overflow-x: hidden;
+  }
+
+  .menu-wrapper .menu ul {
+    display: none;
+  }
+
+  .menu-wrapper .menu .menu-icon {
+    display: flex;
+  }
+
+  .menu-wrapper .menu .mobile-menu {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    color: #fff;
+    display: flex;
+    font-size: 32px;
+    line-height: 44px;
+    font-weight: 600;
+    flex-direction: column;
+    opacity: 0.9;
+    padding: 0;
+    margin: 0;
+    background-color: rgba(50, 70, 255, 0.8);
+    list-style-type: none;
+    backdrop-filter: blur(5px);
+    height: 100vh;
+  }
+
+  .menu-wrapper .menu .mobile-menu li {
+    margin: 20px 0 0 28px;
+  }
+
+  .menu-wrapper .menu .mobile-menu li:first-child {
+    display: flex;
+    justify-content: flex-end;
+    margin: 49px 38px 0;
+  }
+
+  .menu-wrapper .menu .mobile-menu li a {
+    color: #fff;
   }
 }
