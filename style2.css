@@ -5,6 +5,10 @@ html {
   scroll-behavior: smooth;
 }
 
+.fixed {
+  overflow: hidden;
+}
+
 .flex-container {
   display: flex;
   justify-content: space-between;
