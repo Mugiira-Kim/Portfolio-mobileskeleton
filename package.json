@@ -1,7 +1,7 @@
 {
   "name": "portfolio-mobileskeleton",
   "version": "1.0.0",
-  "description": "![](https://img.shields.io/badge/Microverse-blueviolet)",
+  "description": "If you are not familiar with linters, read [root level README](../README.md).",
   "main": "script.js",
   "dependencies": {
     "abab": "^2.0.6",
@@ -600,6 +600,7 @@
     "type": "git",
     "url": "git+https://github.com/Mugiira-Kim/Portfolio-mobileskeleton.git"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
