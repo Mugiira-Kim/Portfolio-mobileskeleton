@@ -180,8 +180,10 @@ input {
     opacity: 0.9;
     padding: 0;
     margin: 0;
-    background-color: #6070ff;
+    background-color: rgba(50, 70, 255, 0.8);
     list-style-type: none;
+    backdrop-filter: blur(5px);
+    height: 100vh;
   }
 
   .menu-wrapper .menu .mobile-menu li {
