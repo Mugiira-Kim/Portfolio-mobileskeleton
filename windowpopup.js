@@ -4,7 +4,7 @@ const projects = [
     roles: { company: 'Canopy', position: ['<span class="fw-bold">Canopy</span>', 'Back End Dev', '2015'] },
     image: 'img/Desktop/Snapshoot-Portfolio1.svg',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    skills: ['html', 'css', 'css', 'javascript'],
+    skills: ['html', 'Ruby on rails', 'css', 'javascript'],
     skillsModal: ['html', 'css', 'javascript', 'github', 'ruby', 'Bootstraps'],
     livelink: { link: 'felix45.github.io/portfolio', text: 'See live' },
     seesource: { link: 'github.com/felix45/portfolio', text: 'See Source' },
