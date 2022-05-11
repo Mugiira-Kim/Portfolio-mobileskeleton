@@ -5,6 +5,10 @@ html {
   scroll-behavior: smooth;
 }
 
+.row {
+  background-color: #fff;
+}
+
 .fixed {
   overflow: hidden;
 }
@@ -116,6 +120,37 @@ input {
   padding: 10px 20px;
 }
 
+.overlay .hide-ruby .taglist {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.overlay article {
+  margin-top: 100px;
+}
+
+.overlay .card-body img {
+  width: 12px;
+  height: auto;
+}
+
+.overlay .overlay-footer {
+  justify-content: space-around;
+}
+
+.overlay .overlay-footer button {
+  width: 130px;
+}
+
+.overlay .images {
+  width: 100%;
+}
+
+.article-card {
+  width: 90%;
+  max-width: 90%;
+  margin: 40px auto;
+}
+
 @media only screen and (max-width: 600px) {
   .page-one {
     width: 375px;
@@ -146,12 +181,9 @@ input {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 552px;
-    width: 327px;
   }
 
   .card img {
-    height: 220px;
     text-align: center;
   }
 
