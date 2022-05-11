@@ -151,6 +151,13 @@ input {
   margin: 40px auto;
 }
 
+.overlay .overlay-close {
+  width: 20px;
+  position: absolute;
+  right: 40px;
+  top: 60px;
+}
+
 @media only screen and (max-width: 600px) {
   .page-one {
     width: 375px;
@@ -180,7 +187,6 @@ input {
   .card {
     display: flex;
     flex-direction: column;
-    justify-content: center;
   }
 
   .card img {
@@ -253,5 +259,10 @@ input {
 
   .hide-ruby .taglist li:nth-child(2){
     display: none;
+  }
+
+  .overlay .overlay-close {
+    right: 20px;
+    top: 15px;
   }
 }

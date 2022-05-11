@@ -234,6 +234,7 @@ function showPopupWindow() {
  const modalContent = createProjectCard(projects[position], false, false);
 
  const overlay = document.querySelector('.overlay');
+ const overlayCloseBtn = overlayCloseButton();
  const modalButtons = modalFooter(projects[position]);
 
  console.log(modalButtons);
@@ -241,12 +242,31 @@ function showPopupWindow() {
  overlay.innerHTML = '';
  overlay.appendChild(modalContent);
 
+ overlay.childNodes[0].appendChild(overlayCloseBtn);
+
  const cardBody = document.querySelector('.overlay .card-body');
  cardBody.appendChild(modalButtons);
 
  overlay.style.display = 'flex';
  document.querySelector('body').classList.toggle('fixed');
 
+}
+
+const closePopup = () => {
+  const overlay = document.querySelector('.overlay');
+  overlay.style.display = 'none';
+  overlay.innerHTML = '';
+  document.querySelector('body').classList.toggle('fixed');
+}
+
+const overlayCloseButton = () => {
+  const overlayCloseBtn = document.createElement('img');
+  overlayCloseBtn.className = 'overlay-close';
+  overlayCloseBtn.src = '/img/overlay-close.svg';
+
+  overlayCloseBtn.addEventListener('click',closePopup);
+
+  return overlayCloseBtn;
 }
 
 const btnProjects = document.querySelectorAll('.btn-project');
