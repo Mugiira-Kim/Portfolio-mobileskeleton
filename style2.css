@@ -107,7 +107,7 @@ input {
 
 .overlay {
   position: fixed;
-  display: none; 
+  display: none;
   height: 100vh;
   left: 0;
   right: 0;
@@ -247,6 +247,10 @@ input {
     margin: 20px 0 0 28px;
   }
 
+  .hide-ruby .taglist li:nth-child(2) {
+    display: none;
+  }
+
   .menu-wrapper .menu .mobile-menu li:first-child {
     display: flex;
     justify-content: flex-end;
@@ -255,10 +259,6 @@ input {
 
   .menu-wrapper .menu .mobile-menu li a {
     color: #fff;
-  }
-
-  .hide-ruby .taglist li:nth-child(2){
-    display: none;
   }
 
   .overlay .overlay-close {
