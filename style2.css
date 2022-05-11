@@ -125,6 +125,7 @@ input {
 }
 
 .overlay article {
+  overflow-y: scroll;
   margin-top: 100px;
 }
 
@@ -156,6 +157,18 @@ input {
   position: absolute;
   right: 40px;
   top: 60px;
+}
+
+.overlay .col-md-6 {
+  width: 100%;
+}
+
+.overlay .col-md-6 .card-body .card-text {
+  width: 70%;
+}
+
+.overlay .col-md-6 .card-body .footer-overlay {
+  width: 30%;
 }
 
 @media only screen and (max-width: 600px) {
@@ -264,5 +277,10 @@ input {
   .overlay .overlay-close {
     right: 20px;
     top: 15px;
+  }
+
+  .overlay .col-md-6 .card-body .card-text,
+  .overlay .col-md-6 .card-body .footer-overlay {
+    width: 100%;
   }
 }

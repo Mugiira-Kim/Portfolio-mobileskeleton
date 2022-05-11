@@ -1,7 +1,7 @@
 const projects = [
   {
     title: 'Tonic',
-    roles: { company: 'Canopy', position: ['Back End Dev', '2015'] },
+    roles: { company: 'Canopy', position: ['<span class="fw-bold">Canopy</span>', 'Back End Dev', '2015'] },
     image: 'img/Desktop/Snapshoot-Portfolio1.svg',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     skills: ['html', 'css', 'css', 'javascript'],
@@ -15,7 +15,7 @@ const projects = [
 
   {
     title: 'Multi-Post Stories',
-    roles: { company: 'Facebook', position: ['Full Stack Dev', '2015'] },
+    roles: { company: 'Facebook', position: ['<span class="fw-bold">Facebook</span>', 'Full Stack Dev', '2015'] },
     image: 'img/Desktop/Snapshoot-Portfolio2.svg',
     description: 'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
     skills: ['html', 'Ruby on rails', 'css', 'javascript'],
@@ -29,7 +29,7 @@ const projects = [
 
   {
     title: 'Facebook 360',
-    roles: { company: 'Facebook', position: ['Full Stack Dev', '2015'] },
+    roles: { company: 'Facebook', position: ['<span class="fw-bold">Facebook</span>', 'Full Stack Dev', '2015'] },
     image: 'img/Desktop/Snapshoot-Portfolio3.svg',
     description: 'Exploring the future of media in Facebook\'s first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.',
     skills: ['html', 'Ruby on rails', 'css', 'javascript'],
@@ -43,7 +43,7 @@ const projects = [
 
   {
     title: 'Uber Navigation',
-    roles: { company: 'Uber', position: ['Lead Developer', '2018'] },
+    roles: { company: 'Uber', position: ['<span class="fw-bold">Uber</span>', 'Lead Developer', '2018'] },
     image: 'img/Desktop/Snapshoot-Portfolio4.svg',
     description: 'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car..',
     skills: ['html', 'Ruby on rails', 'css', 'javascript'],
@@ -119,7 +119,8 @@ const createProjectCard = (project, position = null, isDesktop = true) => {
 
   const cardHeader = createHeader(project, 'h2');
   const cardTagWrapper = document.createElement('ul');
-  cardTagWrapper.className = 'list-inline list-inline-item';
+  cardTagWrapper.className = 'list-inline list-inline-item mx-1';
+  cardTagWrapper.innerHTML = listItems(project.roles.position, 'list-inline-item');
 
   if (!isDesktop) {
     cardRow.appendChild(cardHeader);
@@ -148,7 +149,8 @@ const createProjectCard = (project, position = null, isDesktop = true) => {
 
   cardDescription.appendChild(cardBody);
 
-  const cardCompany = `<span class="fw-bold"> ${project.roles.company} </span>`;
+  const modalFooterWrapper = document.createElement('div');
+  modalFooterWrapper.className = 'd-flex flex-column footer-overlay';
 
   const cardTagList = document.createElement('ul');
   cardTagList.className = 'px-0 taglist';
@@ -165,23 +167,26 @@ const createProjectCard = (project, position = null, isDesktop = true) => {
   const cardText = document.createElement('p');
   cardText.className = 'card-text';
 
+  cardTagList.innerHTML = listItems(project.skills, 'badge list-inline-item rounded-pill bg-light text-primary mb-2 mb-sm-0 mx-1');
+
   if (isDesktop) {
     cardBody.appendChild(cardHeader);
     cardText.textContent = project.description;
     cardTagWrapper.innerHTML = listItems(project.roles.position, 'list-inline-item');
     cardTagList.innerHTML = listItems(project.skills, 'badge list-inline-item rounded-pill bg-light text-primary mb-2 mb-sm-0 mx-1 ');
+    cardBody.appendChild(cardTagWrapper);
   } else if (document.documentElement.clientWidth <= 767) {
     cardText.textContent = mobileDummyText;
   } else {
+    cardBody.classList.add('mt-sm-5', 'd-flex', 'flex-sm-row');
     cardText.textContent = desktopDummyText;
     cardTagWrapper.innerHTML = listItems(project.roles.position, 'list-inline-item');
     cardTagList.innerHTML = listItems(project.skills, 'badge list-inline-item rounded-pill bg-light text-primary mb-2 mb-sm-0 mx-1');
   }
 
-  cardHeader.insertAdjacentHTML('afterEnd', cardCompany);
-  cardBody.appendChild(cardTagWrapper);
   cardBody.appendChild(cardText);
-  cardBody.appendChild(cardTagList);
+  modalFooterWrapper.appendChild(cardTagList);
+  cardBody.appendChild(modalFooterWrapper);
 
   if (isDesktop) {
     cardBody.appendChild(cardButton);
@@ -231,8 +236,8 @@ function showPopupWindow() {
 
   overlay.childNodes[0].appendChild(overlayCloseBtn);
 
-  const cardBody = document.querySelector('.overlay .card-body');
-  cardBody.appendChild(modalButtons);
+  const modalFooterWrapper = document.querySelector('.overlay .footer-overlay');
+  modalFooterWrapper.appendChild(modalButtons);
 
   overlay.style.display = 'flex';
   document.querySelector('body').classList.toggle('fixed');
