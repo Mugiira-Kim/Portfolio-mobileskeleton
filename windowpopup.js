@@ -81,7 +81,7 @@ const createHeader = (project, titleElement) => {
 
 const createImageButton = (project, dest, srcLink) => {
   const link = document.createElement('button');
-  link.className = 'btn btn-outline-primary mt-2';
+  link.className = 'btn btn-outline-primary mt-2 mx-2';
   link.textContent = `${dest.text}`;
   link.href = dest.link;
   const img = document.createElement('img');
@@ -119,7 +119,7 @@ const createProjectCard = (project, position = null, isDesktop = true) => {
 
   const cardHeader = createHeader(project, 'h2');
   const cardTagWrapper = document.createElement('ul');
-  cardTagWrapper.className = 'list-inline list-inline-item mx-1';
+  cardTagWrapper.className = 'list-inline list-inline-item mx-1 text-muted';
   cardTagWrapper.innerHTML = listItems(project.roles.position, 'list-inline-item');
 
   if (!isDesktop) {
@@ -134,7 +134,7 @@ const createProjectCard = (project, position = null, isDesktop = true) => {
     Image.className = 'img-fluid rounded-start';
     imageDiv.appendChild(Image);
   } else {
-    imageDiv.style.height = '400px';
+    imageDiv.style.height = '200px';
     imageDiv.style.backgroundImage = `url(${project.image})`;
     imageDiv.style.backgroundRepeat = 'no-repeat';
     imageDiv.style.backgroundSize = '95%';
@@ -181,7 +181,7 @@ const createProjectCard = (project, position = null, isDesktop = true) => {
     cardBody.classList.add('mt-sm-5', 'd-flex', 'flex-sm-row');
     cardText.textContent = desktopDummyText;
     cardTagWrapper.innerHTML = listItems(project.roles.position, 'list-inline-item');
-    cardTagList.innerHTML = listItems(project.skills, 'badge list-inline-item rounded-pill bg-light text-primary mb-2 mb-sm-0 mx-1');
+    cardTagList.innerHTML = listItems(project.skillsModal, 'badge list-inline-item rounded-pill bg-light text-primary mb-2 mb-sm-0 mx-1');
   }
 
   cardBody.appendChild(cardText);
