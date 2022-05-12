@@ -134,12 +134,12 @@ const createProjectCard = (project, position = null, isDesktop = true) => {
     Image.className = 'img-fluid rounded-start';
     imageDiv.appendChild(Image);
   } else {
-    imageDiv.style.height = '250px';
+    imageDiv.style.height = '400px';
     imageDiv.style.backgroundImage = `url(${project.image})`;
     imageDiv.style.backgroundRepeat = 'no-repeat';
-    imageDiv.style.backgroundSize = '100%';
-    imageDiv.style.backgroundPositionY = '-190px';
-    imageDiv.style.backgroundPositionx = 'center';
+    imageDiv.style.backgroundSize = '95%';
+    imageDiv.style.backgroundPositionY = '-250px';
+    imageDiv.style.backgroundPositionX = '18px';
   }
   cardRow.appendChild(imageDiv);
 

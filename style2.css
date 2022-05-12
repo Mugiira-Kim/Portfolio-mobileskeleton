@@ -3,6 +3,7 @@
 html {
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
+  font-size: 15px;
 }
 
 .row {
@@ -126,7 +127,7 @@ input {
 
 .overlay article {
   overflow-y: scroll;
-  margin-top: -19px;
+  margin-top: 19px;
 }
 
 .overlay .card-body img {
@@ -173,6 +174,11 @@ input {
 }
 
 @media only screen and (max-width: 600px) {
+
+  html {
+    font-size: 10px;
+  }
+  
   .page-one {
     width: 375px;
     height: 718px;
