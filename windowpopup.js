@@ -156,7 +156,7 @@ const createProjectCard = (project, position = null, isDesktop = true) => {
   cardTagList.className = 'px-0 taglist';
 
   const cardButton = document.createElement('button');
-  cardButton.className = 'btn btn-project btn-outline-primary mt-2';
+  cardButton.className = 'btn btn-project btn-outline-primary';
 
   if (position) {
     cardButton.setAttribute('data-position', position - 1);
