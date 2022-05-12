@@ -29,7 +29,7 @@ To get a local copy up and running follow these simple example steps.
 Clone the repository and change the directory to portfolio
 
 ``` 
-  $ git clone git@github.com:Felix45/portfolio.git
+  $ git clone git@github.com:mugiira-kim/portfolio.git
 
   $ cd portfolio
 
@@ -53,7 +53,7 @@ Start the http application server
 
 👤 **Dennis Mugiira**
 
-- GitHub: [@Felix45](https://github.com/Mugiira-Kim)
+- GitHub: [@Mugiira-Kim](https://github.com/Mugiira-Kim)
 - Twitter: [@BbmCru](https://twitter.com/)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/mugiira-kim/)
 
@@ -63,6 +63,13 @@ Start the http application server
 - GitHub: [@Felix45](https://github.com/Felix45)
 - Twitter: [@Felix_Atonoh](https://twitter.com/Felix_Atonoh)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/felix-ouma-639766b0/)
+
+👤 **Mohammed Raad**
+
+- GitHub: [@MohRaad](https://github.com/MohammedRaad)
+- Twitter: [@MoohRaad](https://twitter.com/Mohammed Raad)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/Mohammed Raad)
+
 
 ## 🤝 Contributing
 
