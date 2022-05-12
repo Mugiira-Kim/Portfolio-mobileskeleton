@@ -174,11 +174,10 @@ input {
 }
 
 @media only screen and (max-width: 600px) {
-
   html {
     font-size: 10px;
   }
-  
+
   .page-one {
     width: 375px;
     height: 718px;
