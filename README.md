@@ -47,9 +47,6 @@ Start the http application server
   $ http-server
 ```
 
-### Deployment
-- [Visit Application Homepage](http://localhost:8080)
-
 
 
 ## Authors
