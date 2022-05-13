@@ -159,7 +159,7 @@ const createProjectCard = (project, position = null, isDesktop = true) => {
   cardButton.className = 'btn btn-project btn-outline-primary';
 
   if (position) {
-    cardBtton.setAttribute('data-position', position - 1);
+    cardButton.setAttribute('data-position', position - 1);
   }
 
   cardButton.innerHTML = '<span>See Project</span>';
