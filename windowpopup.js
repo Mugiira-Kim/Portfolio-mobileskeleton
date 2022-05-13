@@ -142,7 +142,7 @@ const createProjectCard = (project, position = null, isDesktop = true) => {
     imageDiv.style.backgroundPositionX = '18px';
   }
   cardRow.appendChild(imageDiv);
-
+  
   // New Column
   const cardDescription = document.createElement('div');
   cardDescription.className = project.htmlClass.cardDescription.join(' ');
@@ -159,7 +159,7 @@ const createProjectCard = (project, position = null, isDesktop = true) => {
   cardButton.className = 'btn btn-project btn-outline-primary';
 
   if (position) {
-    cardButton.setAttribute('data-position', position - 1);
+    cardBtton.setAttribute('data-position', position - 1);
   }
 
   cardButton.innerHTML = '<span>See Project</span>';
